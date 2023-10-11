@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link rel="stylesheet" href="cart.css">
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo"><i class="fas fa-utensils"></i> bon appetit</a>
+        </header>
+        <div class="wrapper">
+            <h1>shopping cart</h1>
+            <div class="project">
+                <div class="shop">
+                    <div class="box">
+                        <img src="https://www.thespruceeats.com/thmb/S3VnVqIAAFg5pM6auqvP9ynkNLw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/creamy-tomato-pasta-481963-hero-01-da2897ca4ccd4673849c017642e6d827.jpg" alt="">
+                        <div class="content">
+                            <h3>creamy tomato pasta</h3>
+                            <h4>160p</h4>
+                            <p class="unit">quantity : <input value="2"></p>
+                            <p class="btn-area">
+                                <i class="fa fa-trash"></i>
+                                <span class="btn2">remove</span>
+                            </p>
+                            <p class="btn-area1">
+                                <i class="fa fa-edit"></i>
+                                <span class="btn2">edit</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="project">
+                <div class="shop">
+                    <div class="box">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6arMeVPbjFYQKgtBeMKSMSp_XJGnKESDIaA&usqp=CAU" alt="">
+                        <div class="content">
+                            <h3>crispy fried chicken</h3>
+                            <h4>90p</h4>
+                            <p class="unit">quantity : <input value="2"></p>
+                            <p class="btn-area">
+                                <i class="fa fa-trash"></i>
+                                <span class="btn2">remove</span>
+                            </p>
+                            <p class="btn-area1">
+                                <i class="fa fa-edit"></i>
+                                <span class="btn2">edit</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="project">
+                <div class="shop">
+                    <div class="box">
+                        <img src="https://forktospoon.com/wp-content/uploads/2021/05/Air-Fryer-Reeses-Peanut-Butter-Cup-Donut-Holes-7.jpg"alt="">
+                        <div class="content">
+                            <h3>chocolate cupcake</h3>
+                            <h4>60p</h4>
+                            <p class="unit">quantity : <input value="2"></p>
+                            <p class="btn-area">
+                                <i class="fa fa-trash"></i>
+                                <span class="btn2">remove</span>
+                            </p>
+                            <p class="btn-area2">
+                                <i class="fa fa-edit"></i>
+                                <span class="btn2">edit</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+             <button class="btn-checkout" onclick="show_pup()"><i class="fas fa-shopping-cart"></i>checkout</button>
+            <div class="card" id="pup">
+                <h2>total : 620 p</h2>
+                <h2>please enter Your credit number </h2>
+                <input class="c" type="textbox" placeholder="credit number" checked><br>
+                <button class="btn-confirm" onclick="hide_up()">confirm</button>
+            </div>
+        </div>
+        <div class="credit">copyright@2022 by<span> google</span> </div>
+        <script>
+            function show_pup(){
+                document.getElementById('pup').classList.add('open');
+            }
+            function hide_pup(){
+                document.getElementById('pup').classList.add('close');
+            }
+        </script>
+    </body>
+</html>

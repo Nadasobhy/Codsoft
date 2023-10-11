@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,800;1,300&display=swap');
+*{
+    font-family: 'Nunito', sans-serif ;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all,4ms linear;
+}
+html{
+    font-size: 120%;
+    overflow-x: hidden;
+    scroll-padding-top: 7%;
+    scroll-behavior: smooth;
+    background-image: url("https://img.freepik.com/free-photo/chopping-board-surrounded-with-vegetables-eggs-rice-grains-desk_23-2148062361.jpg?w=2000");
+}
+header{
+    position: fixed;
+    top: 0px; left: 0px; right: 0px;
+    background: #A9A9A9;
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 40px 10px 90px rgba(0, 0, 0, 0.795);
+    z-index: 1000;
+}
+header .logo{
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: -20px;
+}
+header .logo i{
+    color:rgb(255, 81, 0);
+}
+header .navbar a{
+    font-size: 20x;
+    border-radius: 30px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+header .navbar a.active,
+header .navbar a:hover{
+    color: rgb(255, 81, 0);
+    background: black;
+}
+header .icons i,
+header .icons a{
+    color: rgb(255, 81, 0);
+    border-radius: 20px;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+header .icons i:hover,
+header .icons a:hover{
+    background-color: black;
+    transform: rotate(340deg); 
+}
+ul{
+    list-style: none;
+    background:#A9A9A9 ;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+.dropdown li{
+    display: block;
+    margin-left: -10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+ul li ul.dropdown{
+    width: 130px;
+    height: 130px;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    z-index: 999;
+    display: none;
+    border-radius: 20px;
+}
+.dropdown li a{
+    background:rgb(0, 0, 0);
+}
+.dropdown li a:hover{
+   color: rgb(180, 75, 27);
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+section{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.menu h1{
+    font-weight: bolder;
+    font-size: 50px;
+    padding-left: 530px;
+}
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 160px;
+}
+.box{
+    background: white;
+    border: 5px solid rgba(235, 75, 1, 0.849);
+    border-radius: 20px;
+    box-shadow: 30px;
+}
+.box .image2{
+   padding-left: 30px;
+   padding-right:50px;
+   padding-top: 10px;
+   overflow: hidden;
+   position: relative;
+   object-fit: cover;
+   background-size: contain;
+}
+.box .image2 img{
+    border-radius: 10px;
+}
+.fa-heart{
+    position: absolute;
+    text-align: center;
+    top: 30px; right: 70px;
+    height: 30px; width: 40px;
+    line-height: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    background: white;
+    color:rgb(255, 81, 0);
+}
+.fa-heart:hover{
+    background: black;
+    color: white;
+}
+.menu .content{
+    padding: 40px;
+    padding-top: 50px;
+}
+.stars{
+    padding-bottom: 10px;
+}
+.stars i{
+    font-size: 30px;
+    color: rgb(255, 81, 0);
+}
+.price{
+    color:rgba(255, 81, 0, 0.897) ;
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.btn{
+    padding: 20px;
+    margin-left: 100px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgb(255, 81, 0);
+    color:black ;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:#A9A9A9;
+    color: rgb(255, 81, 0) ;
+}
+::-webkit-scrollbar{
+    width: 15px;
+
+}
+::-webkit-scrollbar-track{
+    background-color: #A9A9A9;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(230, 91, 36);
+}
+::-webkit-scrollbar-button{
+    background-color: #A9A9A9;
+    
+}
+::-webkit-scrollbar-corner{
+    background-color: #A9A9A9;
+}
+.sub-heading{
+    padding-left: 540px;
+    color: rgb(255, 81, 0);
+}
+.credit{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 80px;
+    padding-left: 50px;
+    color: rgb(255, 81, 0);
+}

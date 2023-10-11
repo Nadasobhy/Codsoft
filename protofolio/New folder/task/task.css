@@ -1,0 +1,170 @@
+body{margin: 0;padding: 0;background-color: #F0F0F6;}
+                     /*header*/
+header{background-color: white;height: 550px;}
+.img2{width: 400px;height: 500px;padding-left: 880px;padding-top: 10px;}
+.a{color: black;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 50px;font-weight: bold;margin-top: -400px;margin-left: 100px;}
+h2{color: orange;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 50px;font-weight: bold; margin-left: 100px;margin-top: -30px;}
+h3{color: black;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 50px;font-weight: bold;margin-top: -100px;margin-left: 340px;}
+.b{color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 20px;margin-top: -30px;margin-left: 100px; }
+.btnh{color: black;background-color: orange;font-weight: bold;font-size: 16px;border: none;padding: 15px 20px 20px 25px;margin-left: 100px;margin-top: 30px;cursor: pointer;border-radius: 5px;}
+.btnh:hover{color: orange;background-color: black;}
+span{font-size: 30px;padding-left: 10px;}
+                         /* services*/
+.services{margin-top: 100px;}
+.s{margin-left: 580px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: bold;}
+.p{margin-left: 440px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 20px;color: rgb(114, 114, 114);}
+.c{margin-top: -20px;margin-left: 600px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 20px;color: rgb(114, 114, 114);font-weight: 400;}
+                         /*div1*/
+.wd{width: 350px;height: 250px;margin-left: 140px;background-color: white;}
+svg{margin-left: 140px;margin-top: 30px;}
+.w{margin-left: 90px;font-weight: bold;font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.d{margin-left: 110px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 17px;color: rgb(114, 114, 114);font-weight: 400;}
+                             /*div2*/
+.ui{width: 350px;height: 250px;margin-left: 510px;margin-top: -250px;background-color: white;}
+.u{margin-left: 110px;font-weight: bold;font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.e{margin-left: 80px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 17px;color: rgb(114, 114, 114);font-weight: 400;}
+                            /*div3*/
+.sd{width: 350px;height: 250px;margin-left: 880px;margin-top: -250px;background-color: white;}
+.sound{margin-left: 110px;font-weight: bold;font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.f{margin-left: 80px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 17px;color: rgb(114, 114, 114);font-weight: 400;}
+                            /*div4*/
+.gd{width: 350px;height: 250px;margin-left: 140px;margin-top: 40px;background-color: white;}
+.game{margin-left: 110px;font-weight: bold;font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.h{margin-left: 50px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 17px;color: rgb(114, 114, 114);font-weight: 400;}
+                            /*div5*/
+.ph{width: 350px; height: 250px;margin-left: 510px;margin-top: -250px;background-color: white;}
+.photo{margin-left: 110px;font-weight: bold;font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.g{margin-left: 60px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 17px;color: rgb(114, 114, 114);font-weight: 400;}
+                             /*div6*/
+.ad{width: 350px;height: 250px;margin-left: 880px;margin-top: -282px;background-color: white;}
+.adv{margin-left: 110px;padding-top: 40px;font-weight: bold;font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.i{margin-left: 60px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 17px;color: rgb(114, 114, 114);font-weight: 400;}
+.add{margin-left: 120px;margin-top:-20px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 17px;color: rgb(114, 114, 114);font-weight: 400;}
+.order{color: orange;background-color: white;font-weight: bold;font-size: 16px;border: none;margin-top: -60px;margin-left: 120px;cursor: pointer;border-radius: 20px;}
+.order:hover{color: orange;background-color: black;}
+                            /*protfolio*/
+.port{ margin-left: 580px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: bold;margin-top: 90px;}
+.j{margin-left: 440px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 20px;color: rgb(114, 114, 114);}
+.l{margin-left: 600px;margin-top:-20px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;color: rgb(114, 114, 114);font-weight: 400;}
+                             /*image 1*/
+.first{margin-bottom: 60px;width: 350px;height: 250px;margin-left: 140px;}
+.fi{ margin-top: 60px;}
+.plus{background-color: orange;width: 310px;height: 250px;margin-top: -200px;font-size: 70px;border: none;opacity: 90%; cursor: pointer;}
+                            /*image 2*/
+.sec{margin-left: 510px; margin-top: -250px; }
+                            /*image 3*/
+.th{margin-left: 880px;margin-top: -302px;}
+                             /*image 4*/
+.fo{margin-top: 40px;margin-left: 140px;}
+                            /*image 5*/
+.fif{margin-left: 510px;margin-top: -304px;}
+                            /*image 6*/
+.si{ margin-left: 880px;margin-top: -304px;}
+                             /*image 7 */
+.se{ margin-top: 40px;margin-left: 140px;}
+                             /*image 8 */
+.ei{margin-left: 510px;margin-top: -304px;}
+                            /*image 9 */
+.ni{margin-left: 880px;margin-top: -304px;}
+                        /*information*/
+.info{margin-top: 80px;margin-left: 150px;}
+.k{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+                         /*list*/
+.list{background-color: white;border-radius: 2px;width: 550px;padding-bottom: 50px;}
+.fullname{margin-left: 20px;padding-top: 20px;color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.name{ margin-left: 20px;padding:20px 330px 0px 0px; border: none;background-color: #E4E6EB;border-radius: 2px; }
+.email{ margin-left: 20px;padding-top: 20px;color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.em{ margin-left: 20px;padding:20px 330px 0px 0px; border: none; background-color: #E4E6EB; border-radius: 2px; }
+.subject{margin-left: 20px; padding-top: 20px;color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.sub{ margin-left: 20px; padding:20px 330px 0px 0px; border: none;background-color: #E4E6EB; border-radius: 2px; }
+.message{ margin-left: 20px; padding-top: 20px; color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.m{ margin-left: 20px; padding:20px 330px 150px 0px;border: none; background-color: #E4E6EB;border-radius: 2px;}
+.send{  margin-top: 30px;  margin-left: 20px;  color: black; background-color: orange; font-weight: bold; font-size: 16px;  border: none; padding: 10px 25px 10px 25px ; cursor: pointer; border-radius: 5px;}
+.send:hover{ color: orange;background-color: black;}
+                             /*contact*/
+.contact{margin-left: 780px;margin-top: -800px;}
+.ci{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+                            /*location*/
+.location{background-color: white; width: 330px;height: 220px;}
+.x{margin-left: -33px;margin-bottom:10px;}
+.country{ margin-left: 20px;color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.ban{ margin-top: -40px; margin-left: 250px; color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 12px;}
+.city{ margin-left: 20px;color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.z{margin-top: -40px; margin-left: 275px;color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 12px;}
+.street{margin-left: 20px;color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.v{margin-top: -40px; margin-left: 210px; color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 12px;}
+                                 /*mail*/
+.mail{ background-color: white; width: 330px; height: 220px; margin-top: 20px;}
+.sms{ margin-left: -33px;margin-bottom:10px;}
+.e-mail{ margin-left: 20px; color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.gmail{margin-top: -40px; margin-left: 187px; color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 12px;}
+.skype{margin-left: 20px;color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.sky{margin-top: -40px; margin-left: 220px; color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 12px;}
+.telegram{margin-left: 20px;color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.tel{margin-top: -40px;margin-left: 220px;color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 12px;}
+                                    /*mobile*/
+.mobile{background-color: white;width: 330px;height: 220px;margin-top: 20px;}
+.mob{margin-left: -33px;margin-bottom:10px;}
+.support{margin-left: 20px;color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.sup{ margin-top: -40px;margin-left: 270px;color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 12px;}
+.office{ margin-left: 20px;color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.off{margin-top: -40px;margin-left: 182px;color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 12px;}
+.personal{ margin-left: 20px;color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.per{margin-top: -40px;margin-left: 182px;color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 12px;}
+                                 /*footer*/
+footer{margin-top: 40px;}
+.f1{margin-bottom: 30px;margin-left: 150px;}
+.f2{margin-left: 150px;}
+.f3{ margin-left: 150px;}
+.f4{margin-left: 150px;}
+.path{height: 70px;background-color: white;}
+h6{color: rgb(114, 114, 114);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 17px;padding: 30px 0px 0px 520px;}
+@media screen and (max-width:460px) {
+    header{background-color: white;height: 950px;}
+    .img2{ width: 200px; height: 300px;padding-left: 100px;padding-top: 10px;}
+    .a{font-size: 30px;margin-top: 20px;margin-left: 10px;}
+    h2{font-size: 30px;margin-left: 10px;margin-top: -30px;}
+    h3{font-size: 30px;margin-top: -65px;margin-left: 155px;}
+    .b{font-size: 14px;margin-top: -20px;margin-left: 10px; }
+    .btnh{font-size: 15px;border: none;padding: 13px 18px 18px 23px;margin-left: 130px;}
+    span{font-size: 15px;padding-left: 10px;}
+    .services{margin-top: 60px;}
+    .s{margin-left: 130px;}
+    .p{margin-left: 40px;font-size: 15px;}
+    .c{margin-left: 170px;font-size: 15px;}
+    .wd{width: 400px;margin-left: 40px;}
+    svg{margin-left: 160px;}
+    .w{ margin-left: 110px;}
+    .d{ margin-left: 128px;}
+    .ui{width: 400px;margin-left: 40px;margin-top: 20px;}
+    .u{margin-left: 130px;}
+    .e{margin-left: 90px;}
+    .sd{width: 400px;margin-left: 40px;margin-top: 20px;}
+    .sound{margin-left: 130px;}
+    .f{margin-left: 100px;}
+    .gd{ width: 400px;margin-left: 40px;margin-top: 20px;}
+    .game{margin-left: 130px;}
+    .h{margin-left: 84px;}
+    .ph{width: 400px;margin-left: 40px;margin-top: 20px;}
+    .photo{margin-left: 138px;}
+    .g{margin-left: 100px;}
+    .ad{width: 400px;margin-left: 40px;margin-top: 20px;}
+    .adv{margin-left: 140px;}
+    .i{margin-left: 90px;  }
+    .add{margin-left: 140px;} 
+    .order{margin-left: 140px;}
+    .port{margin-left: 160px;margin-top: 60px;}
+    .j{margin-left: 100px;font-size: 17px;}
+    .l{margin-left: 230px;margin-top: -40px;font-size: 17px;}
+    .first{margin-top: -60px;margin-left: 20px;}
+    .fi{width: 200px;}
+    .plus{width: 200px;height: 150px;margin-top: -150px;font-size: 40px;}
+    .sec{ width: 220px;height: 264px;margin-left: 230px; }
+    .th{width: 200px;margin-left: 20px;margin-top: -302px;}
+    .fo{margin-top: 40px;margin-left: 140px;}
+    .fif{margin-left: 510px;margin-top: -304px;}
+    .si{margin-left: 880px;margin-top: -304px;}
+    .se{margin-top: 40px; margin-left: 140px;}
+    .ei{margin-left: 510px;margin-top: -304px;}
+    .ni{margin-left: 880px; margin-top: -304px;} 
+}

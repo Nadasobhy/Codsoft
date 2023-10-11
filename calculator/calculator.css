@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+body{
+    background-color:gray;
+    margin-left: 480px;
+    margin-top: 150px;
+}
+                        /* screen*/
+.container{
+    background-color:rgb(170, 165, 165);
+    width: 400px;
+    height: 400px;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+.screen{
+    width: 310px;
+    padding: 20px 45px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    text-align: right;
+    color: orange;
+}
+                        /* buttons numbers*/
+.buttons{
+    padding: 10px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3,60px);
+}
+.buttons button{
+    padding: 20px;
+    background-color: white;
+    border: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.buttons button:hover{
+    background-color: orange;
+}
+.signs{
+    color: orangered;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+                        /* mathmatics characters*/
+.math{
+    margin-left: 220px;
+    margin-top: -336px;
+    padding: 10px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(1,60px);
+}
+.math button{
+    padding: 20px 80px;
+    background-color: white;
+    border: white;
+    border-radius: 10px;
+}
+.math button:hover{
+    background-color: orange;
+}
